@@ -1,0 +1,138 @@
+USE [data1]
+GO
+
+/****** Object:  Table [dbo].[table1]    Script Date: 12/07/2018 22:00:37 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[table1](
+	[nik] [varchar](50) NULL,
+	[nama] [varchar](50) NULL,
+	[kota] [varchar](50) NULL,
+	[alamat] [varchar](50) NULL,
+	[status] [varchar](50) NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
+
+
+
+
+USE [data1]
+GO
+
+/****** Object:  Table [dbo].[table2]    Script Date: 12/07/2018 22:01:12 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[table2](
+	[kode] [varchar](50) NULL,
+	[nama] [varchar](50) NULL,
+	[alamat] [varchar](50) NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
+
+
+USE [data1]
+GO
+
+/****** Object:  Table [dbo].[table3]    Script Date: 12/07/2018 22:01:30 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[table3](
+	[kode] [varchar](50) NULL,
+	[nama] [varchar](50) NULL,
+	[jumlah] [varchar](50) NULL,
+	[harga] [varchar](50) NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
+
+
+USE [data1]
+GO
+
+/****** Object:  Table [dbo].[table4]    Script Date: 12/07/2018 22:01:48 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[table4](
+	[nama] [varchar](50) NULL,
+	[umur] [varchar](50) NULL,
+	[kelamin] [varchar](50) NULL,
+	[kode] [varchar](50) NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
+
+
+USE [data1]
+GO
+
+/****** Object:  Table [dbo].[table5]    Script Date: 12/07/2018 22:02:02 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[table5](
+	[kode] [varchar](50) NULL,
+	[kelamin] [varchar](50) NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+

@@ -1,0 +1,153 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="jal.master.vb" Inherits="jajal2.jal" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Toko Bangunan</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/georgia.js"></script>
+<script type="text/javascript" src="js/cuf_run.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style>
+ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: black; height: auto;}
+li {float: right;}
+li a, .dropbtn {display: inline-block;color: black;text-align: center;padding: 14px 16px;text-decoration: none;}
+li a:hover, .dropdown:hover .dropbtn {background-color: red;}
+li.dropdown {display: inline-block;}
+.dropdown-content {display: none;position: absolute;background-color: #f9f9f9;min-width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
+.dropdown-content a {color: black;padding: 12px 16px;text-decoration: none;display: block;text-align: left;}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {display: block;}
+    .style1
+    {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        width: 134px;
+        margin-left: 0px;
+    }
+    .style2
+    {
+        color: white;
+    }
+ </style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+    <div class="logo"><h1><a href="jajal.aspx"><span>Toko</span>  Jaya Raya<br /><small>Kepuasan Anda, Kebahagiaan kami</small></a></h1></div>
+    <form id="form1" runat="server">        
+    <div>
+      <ul style="width: auto">
+         <li><a href="homeawal.aspx" class="style1">Home</a></li>
+         <li><a href="#news" class="style1">News</a></li>
+         <li class="dropdown">
+            <a class="style1">Kelola Data</a>
+               <div class="dropdown-content">
+                  <a href="data.aspx">input data penanggung jawab</a>
+                  <a href="contact.aspx">input pekerja</a>
+                  <a href="costumer.aspx">input costumer</a>
+                  <a href="input.aspx">input bahan bangunan</a>
+                  <a href="admin.aspx">input daftar admin</a>
+               </div>
+         </li>
+       </ul>
+    </div>
+    </div>
+    <div class="headert_text_resize"> 
+    &nbsp;</div>
+    <div class="clr"></div>
+  </div>
+  <div class="body">
+    <div class="body_resize">
+      <div class="left">
+        <table class="style1">
+        <tr>
+            <td class="style2" colspan="2">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td class="style2">
+                &nbsp;</td>
+            <td class="style2">
+                &nbsp;</td>
+        </tr>
+        </table>
+        <img src="images/img_1.jpg" alt="img_1" width="585" height="156" />
+        <div class="clr"></div>
+        </p>
+        <h2>Toko Bangunan<br />
+        <img src="images/img_2.jpg" alt="img_1" width="585" height="156" />
+        <div class="clr"></div>
+        <p><a href="#">Toko bangunan jaya raya menyediakan</a> segala jenis bahan bangunan, semua bahan dijamin mutunya dan sudah terstandarisasi nasional, pengiriman dapar dilakukan dengna ekspedisi khusus milik jaya raya, costumer tinggal memberikan detail alamat dan kami akan segera mengirimkan pesanan bahan bangunan anda ke tempat yang ada inginkan.</p>
+      </div>
+    </form>
+
+      <div class="right">
+        <h2>Bahan Bangunan</h2>
+        <ula>
+          <ali><a href="home.aspx"> Home</a></ali>
+          <br />
+          <ali><a href="#">Semen</a></ali>
+          <br />
+          <ali><a href="#">Pasir</a></ali>
+          <br />
+          <ali> <a href="#">Alata tukang</a></ali>
+          <br />
+          <ali><a href="#">Cat</a></ali>
+          <br />
+          <ali><a href="#" title="Pralon</a></ali>
+        </ula>
+      </div>
+      <div class="clr"></div>
+  <div class="FBG">
+    <div class="FBG_resize">
+      <div class="blok">
+        <h2><span>Image</span> Gallery</h2>
+        <img src="images/gallery_1.gif" alt="img" width="68" height="68" /><img src="images/gallery_2.gif" alt="img" width="68" height="68" /><img src="images/gallery_3.gif" alt="img" width="68" height="68" /><img src="images/gallery_4.gif" alt="img" width="68" height="68" /><img src="images/gallery_5.gif" alt="img" width="68" height="68" /><img src="images/gallery_6.gif" alt="img" width="68" height="68" />
+        <div class="clr"></div>
+        <h2>Contact Info </h2>
+        <p><strong>Phone</strong>: +62889002316500<br />
+          <strong>Address</strong>: JL jend sudirman no 62, kudus jawa tengah <br />
+          <strong>E-mail:</strong> Jayaraya@gmail.com<br />
+      </div>
+      <div class="blok">
+        <h2><span>Merk</span> Bahan Bangunan</h2>
+        <p>berikut beberapa merk yang kami dagangkan kami mengambil merk merk teratas di harga yang sangat murah, kami juga memberikan pelayanan terbaik
+            dan kami berusaha semaksimal mungkin untuk memberikan pengalaman terbaik pelanggan, kenyamanan pelanggan adalah hadiah terbesar buat kami
+        </p>
+        <ula>
+          <ali><a href="#">• tagi roda</a></ali>
+          <ali><a href="#">• diluc</a></ali>
+          <ali><a href="#">• Pralon super</a></ali>
+          <ali><a href="#">• perkakasan</a></ali>
+        </ula>
+        </div>
+      
+      <div class="blok">
+        <h2>Terimakasi</h2>
+        <p>terimakasih kesempatan yang diberikan pelanggan atas kepercayaannya, kami akan segera memberikan pelayanan terbaik untuk anda</p>
+        <p><br />
+        </p>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      
+    </div>
+    <div class="clr"></div>
+  </div>
+</div>
+</form>
+</body>
+</html>
+
